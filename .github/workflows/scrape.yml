@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl https://data.burlingtonvt.gov/explore/dataset/arrests/download/?format=json&timezone=America/New_York&lang=en | jq . > incidents.json
+        curl https://data.burlingtonvt.gov/api/records/1.0/search/?rows=100&sort=arrest_date&start=0&dataset=arrests&timezone=America%2FNew_York&lang=en | jq . > incidents.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
