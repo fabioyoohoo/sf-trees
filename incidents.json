@@ -1,8 +1,8 @@
 {
   "CSVInfo": {
     "filename": "US_MAP_DATA",
-    "update": "Apr 13 2021 12:25PM",
-    "disclaimer": "Case and Death data updated as of Apr 13 2021 12:25PM.  Testing data updated as of Apr 13 2021  1:19PM",
+    "update": "Apr 13 2021 10:50PM",
+    "disclaimer": "Case and Death data updated as of Apr 13 2021 10:50PM.  Testing data updated as of Apr 13 2021 10:52PM",
     "fieldpropertymap": [
       {
         "abbr": "abbr"
@@ -1369,7 +1369,7 @@
     {
       "abbr": "USA",
       "tot_cases": 31076891,
-      "tot_cases_last_24_hours": 61526,
+      "tot_cases_last_24_hours": 56689,
       "conf_cases": 14288920,
       "prob_cases": 2195322,
       "new_cases07": 472714,
