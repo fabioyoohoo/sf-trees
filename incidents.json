@@ -2,7 +2,7 @@
   "CSVInfo": {
     "filename": "US_MAP_DATA",
     "update": "Jul 28 2021  1:03PM",
-    "disclaimer": "Case and Death data updated as of Jul 28 2021  1:03PM.  Testing data updated as of Jul 28 2021  1:11PM",
+    "disclaimer": "Case and Death data updated as of Jul 28 2021  1:03PM.  Testing data updated as of Jul 28 2021 10:05PM",
     "fieldpropertymap": [
       {
         "abbr": "abbr"
@@ -1640,6 +1640,13 @@
       "us_trend_new_case": "80701",
       "us_trend_new_death": "421",
       "us_trend_maxdate": "2021-07-27"
+    },
+    {
+      "abbr": "NY (including NYC)",
+      "name": "NY (including NYC)",
+      "Seven_day_cum_new_cases_per_100k": 62.2,
+      "percent_positive_test_results_last_7_days": 2.31,
+      "state_level_community_transmission": "substantial"
     }
   ]
 }
